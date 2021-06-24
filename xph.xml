@@ -1,0 +1,9 @@
+<? xml version="1.0" encoding="ISO-8859-1"?>
+<school> ##文档节点
+<student> ## 
+    <name lang="en">Make</name> # 元素节点name;属性节点 lan=en
+    <age>17</age>
+    <gender>M</gender>
+    <soucre>90</soucre>
+</student<>
+</school>

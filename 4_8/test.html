@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'表格'</title> 
+</head>
+<body>
+    <table width="500" height="300" border="1" cellpadding="20" cellspacing="0" align="center">
+    <caption>我是表格标题</caption> 
+   <tr>  <td>姓名</td>   <th>性别</th> <th>年龄</th>  </tr>
+   <tr>  <td>刘德华</td> <td>男</td> <td>55</td>  </tr>
+   <tr>  <td>郭富城</td> <td>男</td> <td>52</td>  </tr>
+   <tr>  <td>张学友</td> <td>男</td> <td>58</td>  </tr>
+   <tr>  <td>黎明</td>   <td>男</td> <td>18</td>  </tr>
+   <tr>  <td>刘晓庆</td> <td>女</td> <td>63</td>  </tr>
+   <tr> <td>单元格</td> <th>'加粗'</th><td>女</td> </tr>  <!--.注释标签.，还有一个body里面不可能只有一个表格吧.--> 
+    </table>
+    <table width="500" border="1" align="center" cellspacing="0" cellpadding="0">
+		<tr>  
+			<th>姓名</th> 
+			<th>性别</th>
+			<th>电话</th>
+		</tr>
+		<tr>
+			<td>小王</td>
+			<td>女</td>
+			<td>110</td>
+		</tr>
+		<tr>
+			<td>小明</td>
+			<td>男</td>
+			<td>120</td>
+		</tr>	
+	</table>
+    <table width="500" border="1" align="center" cellspacing="0" cellpadding="0">
+    <tr><td>'单元格'</td> <th>'加粗'</th></tr><!--这个原来是我没加属性-->
+    </table>
+    <table border="1" width="500" height="240" align="center" cellspacing="0">
+		<caption> 个人简历 </caption>
+		<tr>
+			<td>刘德华</td>
+			<td>男</td>
+			<td>18</td>
+			<!-- 目标单元格  先上后下 -->
+			<td rowspan="2">照片</td>
+		</tr>
+		<tr>
+			<td>身高 180</td>
+			<td>汉族</td>
+			<td>已婚</td>
+			<!-- <td>照片</td> 这个单元格是多余的 -->
+		</tr>
+		<tr>
+			<td>个人作品</td>
+			<!-- 第二个单元格是目标单元格 colspan和rowspan都是包含在td内的 -->
+			<td colspan="3">个人作品</td>
+			
+		</tr>
+		<tr>
+			<td>个人简历</td>
+			<td colspan="3">个人简历</td>
+			
+		</tr>
+		
+
+	</table>
+     
+
+</body>
+</html>
